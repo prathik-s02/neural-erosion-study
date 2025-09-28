@@ -1,0 +1,1298 @@
+[
+  {
+    "prune_level": 0.0,
+    "noise_level": 0.0,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "quick brown fox jumps over the lazy dog.",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "Paris",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 1.0,
+          "bleu": 0.1778279410038923,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.0,
+    "noise_level": 0.02,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "quick brown fox jumps over the lazy dog.",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "Paris",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 1.0,
+          "bleu": 0.1778279410038923,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.0,
+    "noise_level": 0.05,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "quick brown fox jumps over the lazy dog.",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "Paris",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 1.0,
+          "bleu": 0.1778279410038923,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.0,
+    "noise_level": 0.1,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "quick brown fox jumps over the lazy dog.",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "Paris",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 1.0,
+          "bleu": 0.1778279410038923,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.2,
+    "noise_level": 0.0,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "the quick brown fox jumps over the lazy dog.",
+        "metrics": {
+          "rouge1_f": 0.9411764705882353,
+          "rouge2_f": 0.9333333333333333,
+          "rougeL_f": 0.9411764705882353,
+          "bleu": 0.8801117367933934,
+          "length_ratio": 1.1111111111111112,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "Hello, comment \u00eates-vous aujourd'hui?",
+        "metrics": {
+          "rouge1_f": 0.8333333333333334,
+          "rouge2_f": 0.8000000000000002,
+          "rougeL_f": 0.8333333333333334,
+          "bleu": 0.7598356856515925,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.8333333333333334
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "climate change is a long-term shift in global temperatures and weather patterns. since the 1800s human activities have been the main driver.",
+        "metrics": {
+          "rouge1_f": 0.9302325581395349,
+          "rouge2_f": 0.8780487804878049,
+          "rougeL_f": 0.9302325581395349,
+          "bleu": 0.7947545184555568,
+          "length_ratio": 1.1428571428571428,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "Paris",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 1.0,
+          "bleu": 0.1778279410038923,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "metrics": {
+          "rouge1_f": 0.9,
+          "rouge2_f": 0.8947368421052632,
+          "rougeL_f": 0.9,
+          "bleu": 0.7771475625141703,
+          "length_ratio": 1.2105263157894737,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.2,
+    "noise_level": 0.02,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "the quick brown fox jumps over the lazy dog.",
+        "metrics": {
+          "rouge1_f": 0.9411764705882353,
+          "rouge2_f": 0.9333333333333333,
+          "rougeL_f": 0.9411764705882353,
+          "bleu": 0.8801117367933934,
+          "length_ratio": 1.1111111111111112,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "climate change is a long-term shift in global temperatures and weather patterns. since 1800s human activities have been the main driver.",
+        "metrics": {
+          "rouge1_f": 0.9523809523809523,
+          "rouge2_f": 0.9,
+          "rougeL_f": 0.9523809523809523,
+          "bleu": 0.8318180062062374,
+          "length_ratio": 1.0952380952380953,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "Paris",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 1.0,
+          "bleu": 0.1778279410038923,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "artificial intelligence refers to simulation of human intelligence in machines.",
+        "metrics": {
+          "rouge1_f": 0.7142857142857143,
+          "rouge2_f": 0.6153846153846153,
+          "rougeL_f": 0.7142857142857143,
+          "bleu": 0.347249517350399,
+          "length_ratio": 0.5789473684210527,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.5882352941176471
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.2,
+    "noise_level": 0.05,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "the quick brown fox jumps over the lazy dog.",
+        "metrics": {
+          "rouge1_f": 0.9411764705882353,
+          "rouge2_f": 0.9333333333333333,
+          "rougeL_f": 0.9411764705882353,
+          "bleu": 0.8801117367933934,
+          "length_ratio": 1.1111111111111112,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "Bonjour, comment \u00eates vous aujourd'hui?",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 0.20556680845025987,
+          "length_ratio": 1.1666666666666667,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.8333333333333334
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "climate change is a long-term shift in global temperatures and weather patterns. since the 1800s human activities have been the main driver.",
+        "metrics": {
+          "rouge1_f": 0.9302325581395349,
+          "rouge2_f": 0.8780487804878049,
+          "rougeL_f": 0.9302325581395349,
+          "bleu": 0.7947545184555568,
+          "length_ratio": 1.1428571428571428,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "Paris",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 1.0,
+          "bleu": 0.1778279410038923,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "metrics": {
+          "rouge1_f": 0.9,
+          "rouge2_f": 0.8947368421052632,
+          "rougeL_f": 0.9,
+          "bleu": 0.7771475625141703,
+          "length_ratio": 1.2105263157894737,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.2,
+    "noise_level": 0.1,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "The quick brown fox jumps over the lazy dog.",
+        "metrics": {
+          "rouge1_f": 0.9411764705882353,
+          "rouge2_f": 0.9333333333333333,
+          "rougeL_f": 0.9411764705882353,
+          "bleu": 0.8801117367933934,
+          "length_ratio": 1.1111111111111112,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 1.0,
+          "rougeL_f": 1.0,
+          "bleu": 1.0,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "climate change is a long-term shift in global temperatures and weather patterns. since the 1800s human activities have been the main driver.",
+        "metrics": {
+          "rouge1_f": 0.9302325581395349,
+          "rouge2_f": 0.8780487804878049,
+          "rougeL_f": 0.9302325581395349,
+          "bleu": 0.7947545184555568,
+          "length_ratio": 1.1428571428571428,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "Paris",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 1.0,
+          "bleu": 0.1778279410038923,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "metrics": {
+          "rouge1_f": 0.9,
+          "rouge2_f": 0.8947368421052632,
+          "rougeL_f": 0.9,
+          "bleu": 0.7771475625141703,
+          "length_ratio": 1.2105263157894737,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.4,
+    "noise_level": 0.0,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": ".",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 5.965462840365855e-05,
+          "length_ratio": 0.1111111111111111,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.1111111111111111
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "Hello, how are you today?",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.0,
+          "bleu": 0.039281465090051315,
+          "length_ratio": 1.1666666666666667,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.3333333333333333
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "climate change is a long-term shift in global temperatures and weather patterns.",
+        "metrics": {
+          "rouge1_f": 0.787878787878788,
+          "rouge2_f": 0.7741935483870968,
+          "rougeL_f": 0.787878787878788,
+          "bleu": 0.5404329964865341,
+          "length_ratio": 0.6190476190476191,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.65
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "????????????????????????????????????????????????",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 48.0,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": ".",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 2.708315939533232e-09,
+          "length_ratio": 0.05263157894736842,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.058823529411764705
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.4,
+    "noise_level": 0.02,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "..",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 0.1111111111111111,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "Vous vous \u00eates, Vous vous vous \u00eates, vous vous vous \u00eates, vous vous vous vous \u00eates, vous vous vous vous \u00eates, vous vous vous vous vous \u00eates, vous vous vous vous vous vous vous vous",
+        "metrics": {
+          "rouge1_f": 0.09756097560975609,
+          "rouge2_f": 0.05128205128205128,
+          "rougeL_f": 0.09756097560975609,
+          "bleu": 0.004503778123700044,
+          "length_ratio": 6.833333333333333,
+          "repetition_ratio": 0.55,
+          "word_overlap": 0.16666666666666666
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "''''''''''''''''''''''''''''''''''''''''''''''''",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 1.1428571428571428,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "Paris",
+        "metrics": {
+          "rouge1_f": 1.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 1.0,
+          "bleu": 0.1778279410038923,
+          "length_ratio": 1.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 1.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": ".....",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 0.05263157894736842,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.4,
+    "noise_level": 0.05,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "fox jumps over the lazy dog.",
+        "metrics": {
+          "rouge1_f": 0.8571428571428571,
+          "rouge2_f": 0.8333333333333333,
+          "rougeL_f": 0.8571428571428571,
+          "bleu": 0.7514772930752859,
+          "length_ratio": 0.7777777777777778,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.7777777777777778
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "Bonjour, e e e e e e e e e e e e e e e e e e e e e e e",
+        "metrics": {
+          "rouge1_f": 0.06666666666666667,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.06666666666666667,
+          "bleu": 0.016020720994064933,
+          "length_ratio": 4.166666666666667,
+          "repetition_ratio": 0.9166666666666666,
+          "word_overlap": 0.3333333333333333
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "climate change is a long-term shift in global temperatures and weather patterns.",
+        "metrics": {
+          "rouge1_f": 0.787878787878788,
+          "rouge2_f": 0.7741935483870968,
+          "rougeL_f": 0.787878787878788,
+          "bleu": 0.5404329964865341,
+          "length_ratio": 0.6190476190476191,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.65
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "context context context context",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.0,
+          "bleu": 0,
+          "length_ratio": 4.0,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "..",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 0.05263157894736842,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.4,
+    "noise_level": 0.1,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "'' e a '''''''''''''''''''''''''''''''''''''''''",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.0,
+          "bleu": 0,
+          "length_ratio": 2.6666666666666665,
+          "repetition_ratio": 0.782608695652174,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "Hello, How are you today?",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.0,
+          "bleu": 0.039281465090051315,
+          "length_ratio": 1.1666666666666667,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.3333333333333333
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "''''''''''''''''''''''''''''''''''''''''''''''''",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 1.1428571428571428,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "????",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 4.0,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "''''''''''''''''''''''''''''''''''''''''''''''''",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 1.263157894736842,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.6,
+    "noise_level": 0.0,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": ".",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 5.965462840365855e-05,
+          "length_ratio": 0.1111111111111111,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.1111111111111111
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "s s s s s s s s s s s s s s s s s s s s s s s s",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.0,
+          "bleu": 0,
+          "length_ratio": 4.0,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "s the --------------",
+        "metrics": {
+          "rouge1_f": 0.09090909090909091,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.09090909090909091,
+          "bleu": 0.006321137597583454,
+          "length_ratio": 0.42857142857142855,
+          "repetition_ratio": 0.75,
+          "word_overlap": 0.05
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 0.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "--------------------",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 0.5263157894736842,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.6,
+    "noise_level": 0.02,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": ": : : : : : : : : : : : : : : : : : : : : : : :",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 2.6666666666666665,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "::::::::::::::::????????????????????????????????",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0.0038253628844009133,
+          "length_ratio": 8.0,
+          "repetition_ratio": 0.9787234042553191,
+          "word_overlap": 0.16666666666666666
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": ": : : : : : : : : : : : : : : ::::::::::::::::::",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 1.5714285714285714,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "??",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 2.0,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": ": : : : : : : : : : : : : : : : ::::::::::::::::",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 1.6842105263157894,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.6,
+    "noise_level": 0.05,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "s",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.0,
+          "bleu": 0,
+          "length_ratio": 0.1111111111111111,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": ": : : : : : :??????????????????????????????????",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0.004503778123700044,
+          "length_ratio": 6.833333333333333,
+          "repetition_ratio": 0.975,
+          "word_overlap": 0.16666666666666666
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "s",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.0,
+          "bleu": 0,
+          "length_ratio": 0.047619047619047616,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "?????????????????????????????????????????????????",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 49.0,
+          "repetition_ratio": 1.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "s",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.0,
+          "bleu": 0,
+          "length_ratio": 0.05263157894736842,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "prune_level": 0.6,
+    "noise_level": 0.1,
+    "sentence_results": [
+      {
+        "sentence_id": 0,
+        "input": "summarize: The quick brown fox jumps over the lazy dog.",
+        "baseline": "quick brown fox jumps over the lazy dog.",
+        "degraded": "t : : : : : : : : : : : :.. : : : : : : :..",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.0,
+          "bleu": 0,
+          "length_ratio": 2.4444444444444446,
+          "repetition_ratio": 0.8095238095238095,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 1,
+        "input": "translate English to French: Hello, how are you today?",
+        "baseline": "Bonjour, comment \u00eates-vous aujourd'hui?",
+        "degraded": "a d a d a d a d a d a d a d a d a d a d a d a d",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.0,
+          "bleu": 0,
+          "length_ratio": 4.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 2,
+        "input": "summarize: Climate change is a long-term shift in global temperatures and weather patterns. While climate change is natural, since the 1800s human activities have been the main driver.",
+        "baseline": "climate change is a long-term shift in global temperatures and weather patterns. human activities have been the main driver.",
+        "degraded": "t : : : : : : : : : : : : : : : : : : : : : : :",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.0,
+          "bleu": 0,
+          "length_ratio": 1.1428571428571428,
+          "repetition_ratio": 0.9565217391304348,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 3,
+        "input": "question: What is the capital of France? context: Paris is the capital and most populous city of France.",
+        "baseline": "Paris",
+        "degraded": "",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0,
+          "bleu": 0,
+          "length_ratio": 0.0,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.0
+        }
+      },
+      {
+        "sentence_id": 4,
+        "input": "summarize: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "baseline": "artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans.",
+        "degraded": "t s d",
+        "metrics": {
+          "rouge1_f": 0.0,
+          "rouge2_f": 0.0,
+          "rougeL_f": 0.0,
+          "bleu": 0,
+          "length_ratio": 0.15789473684210525,
+          "repetition_ratio": 0.0,
+          "word_overlap": 0.0
+        }
+      }
+    ]
+  }
+]
