@@ -96,8 +96,6 @@ python degradation_summary.py
 - Stealth attack development
 - Defense mechanism testing
 
-## Experimental Design
-
 ### Metrics
 - **ROUGE scores**: Semantic preservation
 - **BLEU scores**: Output quality
