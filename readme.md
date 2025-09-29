@@ -98,12 +98,6 @@ python degradation_summary.py
 
 ## Experimental Design
 
-### Degradation Parameters
-- **Pruning levels**: 0%, 20%, 40%, 60%
-- **Noise injection**: 0.000-0.100 scale
-- **Target layers**: Feed-forward, attention mechanisms
-- **Evaluation tasks**: Summarization, translation, Q&A
-
 ### Metrics
 - **ROUGE scores**: Semantic preservation
 - **BLEU scores**: Output quality
