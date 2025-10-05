@@ -54,9 +54,6 @@ cd neural-degradation-simulator
 
 # Install dependencies with CUDA support
 pip install -r requirements.txt
-
-# Verify CUDA availability
-python cuda_test.py
 ```
 
 ## Usage
@@ -69,15 +66,10 @@ python cuda_test.py
 import json
 with open('degradation_results.json', 'r') as f:
     results = json.load(f)
-
-# Run visualization analysis
-python degradation_summary.py
 ```
 
-### Available Tools
-- `degradation_summary.py` - Pattern analysis and visualization
-- `cuda_test.py` - Hardware compatibility check
-- `degradation_results.json` - Complete experimental data
+### Experimentation Data
+- `degradation_results.json`
 
 ## Research Applications
 
@@ -123,23 +115,6 @@ The framework generates comprehensive analysis charts:
 - Cross-lingual degradation patterns
 - Recovery mechanism development
 - Clinical correlation studies
-
-## Citation
-
-*Methods and full implementation details available upon publication.*
-
-```
-@misc{neural_degradation_2024,
-  title={Neural Degradation Simulation Framework},
-  author={[Author Name]},
-  year={2024},
-  note={Unpublished research}
-}
-```
-
-## License
-
-Research preview - full license pending publication.
 
 ---
 
